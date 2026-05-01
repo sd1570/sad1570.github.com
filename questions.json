@@ -1,0 +1,22 @@
+[
+    {
+        "topic": "ARO",
+        "question": "FuelCo recognized an ARO of $17,954 at 10%. What is the Year 1 Accretion Expense?",
+        "options": [
+            {"text": "$1,795", "correct": true},
+            {"text": "$1,975", "correct": false}
+        ],
+        "rationale": "Accretion = $17,954 * 10%.",
+        "tip": "Accretion increases the liability over time."
+    },
+    {
+        "topic": "Leases",
+        "question": "Liability $2,606, Legal Fees $250, Incentive $100. ROU Asset?",
+        "options": [
+            {"text": "$2,756", "correct": true},
+            {"text": "$2,856", "correct": false}
+        ],
+        "rationale": "ROU = Liab + Costs - Incentives.",
+        "tip": "Subtract incentives because they reduce your cost."
+    }
+]

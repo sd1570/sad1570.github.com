@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounting Wizard | Intermediate II</title>
+    <link rel="stylesheet" href="assets/apps/style.css">
+</head>
+<body>
+    <div class="wizard-container">
+        <header>
+            <h1>🔮 Accounting Wizard</h1>
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            <p id="topic-tag">Loading Spells...</p>
+        </header>
+
+        <main id="quiz-ui">
+            <p id="question-text"></p>
+            <div id="options-list"></div>
+
+            <div id="feedback-box" class="hidden">
+                <p id="result-text"></p>
+                <p id="rationale-text"></p>
+                <p id="tip-text"></p>
+                <button id="next-btn">Next Incantation ➔</button>
+            </div>
+        </main>
+
+        <div id="results-ui" class="hidden">
+            <h1>✨ Mastery Achieved!</h1>
+            <p id="final-score"></p>
+            <button onclick="location.reload()" class="retry-btn">Study Again</button>
+        </div>
+    </div>
+    <script src="assets/apps/app.js"></script>
+</body>
+</html>
